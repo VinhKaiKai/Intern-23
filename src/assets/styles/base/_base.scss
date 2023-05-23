@@ -21,7 +21,7 @@
 
   h3,
   .h3 {
-    @apply text-h3 font-bold md:text-h3-md;
+    @apply text-h3 font-bold 2xl:text-h3-md;
   }
 
   h4,
@@ -79,6 +79,7 @@
 
 a {
   @apply text-primary-100 underline hover:no-underline hover:text-primary-200;
+  
   &:-webkit-any-link:focus-visible {
     outline-offset: 3px;
   }
@@ -103,5 +104,5 @@ table{
   }
   th {
     @apply font-bold;
-  }
+}
 }

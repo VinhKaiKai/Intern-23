@@ -1,6 +1,7 @@
 const maxWidth = {
   none: 'none',
   0: '0',
+  20: '20px',
   xs: '20rem',
   sm: '24rem',
   md: '28rem',
@@ -35,6 +36,7 @@ const maxWidth = {
   '440': '440px',
   '460': '460px',
   '480': '480px',
+  '495': '495px',
   '500': '500px',
   '520': '520px',
   '540': '540px',
@@ -43,6 +45,9 @@ const maxWidth = {
   '600': '600px',
   '800': '800px',
   '1000': '1000px',
+  '1180': '1180px',
+
+  
 }
 module.exports = {
   maxWidth

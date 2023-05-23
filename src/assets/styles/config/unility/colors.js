@@ -19,7 +19,8 @@ const Colors = {
   blue: {
     100: '#1d4f91',
     200: '#1e5091',
-    300: 'rgb(59 130 246)'
+    300: 'rgb(59 130 246)',
+    1000: '#ccc'
   },
   black: '#000',
   transparent: 'transparent'
