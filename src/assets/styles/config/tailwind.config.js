@@ -144,9 +144,9 @@ module.exports = {
             paddingRight: '48px',
           },
           '@screen xl': {
-            maxWidth: '1110px',
-            paddingLeft: '70px',
-            paddingRight: '70px',
+            maxWidth: '1200px',
+            paddingLeft: '0px',
+            paddingRight: '0px',
           },
           '@screen 2xl': {
             maxWidth: '1390px'

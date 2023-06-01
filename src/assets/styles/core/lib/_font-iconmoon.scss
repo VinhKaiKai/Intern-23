@@ -1,4 +1,4 @@
-// stylelint-disable
+
 @font-face {
   font-family: 'icomoon';
   font-display: swap;
@@ -25,6 +25,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-Xe:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-icon_moi:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-Logo:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-icon-search:before {
+  content: "\e905";
+}
 .icon-angle-double-right:before {
   content: "\e903";
 }
@@ -34,14 +49,17 @@
 .icon-calendar:before {
   content: "\e900";
 }
-.icon-icon-search:before {
-  content: "\e905";
+.icon-date:before {
+  content: "\e900";
 }
-.icon-mail-envelope-closed2:before {
-  content: "\e902";
+.icon-schedule:before {
+  content: "\e900";
 }
-.icon-mail-envelope-closed:before {
-  content: "\e901";
+.icon-time:before {
+  content: "\e900";
+}
+.icon-day:before {
+  content: "\e900";
 }
 .icon-google-plus:before {
   content: "\ea8b";
@@ -63,6 +81,12 @@
 }
 .icon-linkedin2:before {
   content: "\eaca";
+}
+.icon-mail-envelope-closed2:before {
+  content: "\e902";
+}
+.icon-mail-envelope-closed:before {
+  content: "\e901";
 }
 .icon-close:before {
   content: "\e91f";

@@ -5,6 +5,7 @@ const Colors = {
     300: '#dfc8a0',
     400: '#ffb6c1',
     500: '#ff3fbe',
+    
   },
   green: {
     100: '#576541',
@@ -20,7 +21,9 @@ const Colors = {
     100: '#1d4f91',
     200: '#1e5091',
     300: 'rgb(59 130 246)',
-    1000: '#ccc'
+    1000: '#ccc',
+    600: '#043673',
+    700: '#4197B4'
   },
   black: '#000',
   transparent: 'transparent'
