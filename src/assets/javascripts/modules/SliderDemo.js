@@ -21,7 +21,7 @@ export default class SliderDemo {
   constructor () {
     this.$this = $('.mod-slider')
   }
-  init () {
+  init () {// khởi tạo
     if (this.$this.length) {
       this.addSlick()
     }
@@ -32,9 +32,10 @@ export default class SliderDemo {
       slidesToScroll: 1,// khi mà nhấn cái nút <> thì nó sẽ chuyển qua bao nhiêu nội dung 
       dots: true, // nó sẽ hiển thị ra 2 cái <> và các - - - - - 
       arrows: true, // hiển thị cái nút bấm <>
-      centerMode: true,// nó sẽ hiện 2 bên ra thêm 1 xí
-      focusOnSelect: true, // chọn vào cái màn hình bên phải hay bên trái slide sẽ đi theo
-      adaptiveHeight: true,// không biêt cái này là gì.
+      // centerMode: true,// nó sẽ hiện 2 bên ra thêm 1 xí
+      // focusOnSelect: true, // chọn vào cái màn hình bên phải hay bên trái slide sẽ đi theo
+      // adaptiveHeight: true,// không biêt cái này là gì.
+      infinite: false, //khi nó chạy đến cái CUỐI THÌ NÓ KO CHO CHẠY NGƯỢC LẠI
       // autoplay: true,
       // autoplaySpeed: 1000,
       rows: 1,// số hàng mà nó thể hiện ra màn hình. mặc định là 1 hang
@@ -46,19 +47,22 @@ export default class SliderDemo {
         {
           breakpoint: 1200,// khi màn hình 1200 trở xuống
           settings: { // setting cho nó
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',// độ mờ của 2 viền 2 bên slider
-            slidesToShow: 2 // khi màn hình dưới 1200 thì nó sẽ hiện ra 2 ảnh 
+            // arrows: false,
+            // infinite: true,
+            // centerMode: true,// cái nó sẽ focus cho cái chuyển 
+            // centerPadding: '40px',// độ mờ của 2 viền 2 bên slider
+            slidesToShow: 2,// khi màn hình dưới 1200 thì nó sẽ hiện ra 2 ảnh 
+            slidesToScroll: 1,
           }
         },
         {
-          breakpoint: 700,
+          breakpoint: 768,
           settings: {
             // arrows: false,
             centerMode: false,
             // centerPadding: '40px',
-            slidesToShow: 1
+            slidesToShow: 1,
+            slidesToScroll: 1,
           }
         }
       ]
