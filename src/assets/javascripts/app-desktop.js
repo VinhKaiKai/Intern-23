@@ -1,6 +1,6 @@
 import 'slick-carousel/slick/slick'
-import 'modules/SliderDemo'
 import 'modules/dong_mo'
+import 'app-slider'
 
 // // js Custom
 import 'modules/FixHeight'
