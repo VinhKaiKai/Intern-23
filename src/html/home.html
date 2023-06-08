@@ -1,0 +1,20 @@
+---
+author: Frontend Team
+ourTeam: My Team
+---
+{% extends 'layouts/application.html' %}
+{% block bodyClass %}class="page-home has-animation"{% endblock %}
+
+{% block content %}
+<main id="main-content" class="main-content pt-100">
+        {% include 'modules/mod-blue.html' %}
+        {% include 'modules/slick-version-two.html' %}
+        {% include 'modules/bed.html' %}
+        {% include 'modules/Quan.html' %}
+        {% include 'modules/me-om-be.html' %}
+        {% include 'modules/goi.html' %}
+        {% include 'modules/dien-thong-tin-va-chu.html' %}
+        
+</main>
+
+{% endblock %}

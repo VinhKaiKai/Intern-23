@@ -142,7 +142,6 @@
   }
 
   .box-slick {
-    padding-right: 20px;
-    width: 600px;
+    @apply xl:w-600 md:mr-10;
   }
 }

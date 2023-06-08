@@ -1,24 +1,19 @@
-export default class Slick {
+export default class Slick3 {
     constructor () {
-      this.$this = $('.slick-version-two')
+      this.$this = $('.version-3-slick')
     }
-    init () {// khởi tạo
+    init () {// khởi tạow
       if (this.$this.length) {
         this.addSlick()
       }
     }
     addSlick () {
-      this.$this.find('.slider').slick({
+      this.$this.find('.slick-version-3').slick({
         slidesToShow: 2,//khi dành cho decktop thì hiển thị ra 3 màng hình
-        // slidesToScroll: 1,// khi mà nhấn cái nút <> thì nó sẽ chuyển qua bao nhiêu nội dung 
         dots: true, // nó sẽ hiển thị ra 2 cái <> và các - - - - - 
         arrows: true, // hiển thị cái nút bấm <>
-        // centerMode: false,// nó sẽ hiện 2 bên ra thêm 1 xí
         focusOnSelect: true, // chọn vào cái màn hình bên phải hay bên trái slide sẽ đi theo
-        // adaptiveHeight: true,// không biêt cái này là gì.
         infinite: true, //khi nó chạy đến cái CUỐI THÌ NÓ KO CHO CHẠY NGƯỢC LẠI
-        // autoplay: true,
-        // autoplaySpeed: 1000,
         rows: 0,// số hàng mà nó thể hiện ra màn hình. mặc định là 1 hang
         variableWidth: true,//
                             
@@ -29,27 +24,21 @@ export default class Slick {
           {
             breakpoint: 1200,// khi màn hình 1200 trở xuống
             settings: { // setting cho nó
-              // arrows: false,
-              // infinite: true,
-              // centerMode: true,// cái nó sẽ focus cho cái chuyển 
-              // centerPadding: '40px',// độ mờ của 2 viền 2 bên slider
-              slidesToShow: 2,// khi màn hình dưới 1200 thì nó sẽ hiện ra 2 ảnh 
-              slidesToScroll: 1,
-              variableWidth: false,
+              slidesToShow: 1,// khi màn hình dưới 1200 thì nó sẽ hiện ra 1 ảnh 
+              // variableWidth: true, 
             }
           },
           {
             breakpoint: 768,
             settings: {
-              // arrows: false,
-              // centerPadding: '40px',
               slidesToShow: 1,
-              variableWidth: false,
-              slidesToScroll: 1,
+              variableWidth: false, 
             }
           }
         ]
       })
     }
   }
-  new Slick().init()
+  new Slick3().init()
+
+  console.log("Slick3");

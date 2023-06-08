@@ -1,6 +1,6 @@
 const configs = require('./config')
 const mode = process.title === 'gulp' ? 'aot' : 'aot'
-console.log('====> Mode: Anh Long đẹp trai nhất công ty 9th Wonder . . .', )
+console.log('====> Mode: Anh Longggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg đẹp trai nhất công ty 9th Wonder . . .', )
 module.exports = {
   content: [
     './src/html/**/*.html',
