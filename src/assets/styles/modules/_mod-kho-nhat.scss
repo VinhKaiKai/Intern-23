@@ -1,0 +1,11 @@
+.module-kho-nhat{
+    .wrap-images{
+        translate: -50px;
+        @media (min-width :767px) {
+            translate: 0px;
+        }
+        @media (min-width :1910px) {
+            translate: 100px;
+        }
+    }
+}
