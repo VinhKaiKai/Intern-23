@@ -1,0 +1,163 @@
+.mod-testimonials{
+    //@charset 'UTF-8';
+    // stylelint-disable
+    /* Icons */
+    /* Arrows */
+    
+      .slick-prev, //  chung 2 cái <>
+      .slick-next {
+        position: absolute;
+        display: block;
+        padding: 0;
+        cursor: pointer;
+        color: #043673;
+        // color: red;
+        border:none;//
+        outline: none;
+        transform: translate(0, -50%);
+        z-index: 11; //
+        font-size: 30px;
+        top:-87px; //
+        width: 50px;
+        // left: 0px;
+    
+        @media (min-width: 767px) {
+          top: 113%;
+          left: 85%;
+        }
+        @media (min-width: 1279px) {
+          top: 114%;
+          left: 10%;
+        }
+        @media (min-width: 1919px) {
+          top: 117%;
+          left: 10%;
+        }
+      }
+    
+      .slick-prev {
+        right: 40px;
+        // left: 0;
+        
+        @media (min-width: 767px) {
+          left: 87%;
+          //width: 30px;
+        }
+    
+        @media (min-width: 1279px) {
+          left: -7px;
+          width: 30px;
+        }
+      }
+    
+      .slick-next {
+        right: 0px;
+        // left: 40px;
+    
+        @media (min-width: 767px) {
+          left: 93%;
+          //width: 30px;
+        }
+    
+        @media (min-width: 1279px) {
+          left: 32px;
+          width: 30px;
+        }
+      }
+    
+      .slick-dots {
+        position: absolute;
+        top: -38px;
+        width: 100%;
+        padding: 0;
+        padding-right: -30px;
+        margin: 0;
+        text-align: center;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 45px;
+        left:-35px;
+    
+        @media (min-width: 767px) {
+          top: 127%;
+          justify-content: end;
+          gap: 55px;
+          left:-90px;
+    
+        }
+    
+        @media (min-width: 1280px) {
+          justify-content: start;
+          padding-right: 0;
+          left: -25px;
+          top: 510px;
+        }
+
+        @media (min-width: 1919px) {
+          justify-content: start;
+          padding-right: 0;
+          left: -25px;
+          top: 640px;
+        }
+    
+        li {
+          position: relative;
+          top: 0;
+          left: 0;
+          transform: translate(-50%, -50%);
+          padding: 0;
+          margin-bottom: 0;
+          cursor: pointer;
+    
+          &::before {
+            display: none;
+          }
+          
+          /*thang nao khong toi thi 1px*/
+          button {
+            cursor: pointer;
+            border-radius: 50%;
+            text-indent: -9999px;
+            @apply relative w-10 h-10 block;
+    
+            &::after {
+              content: "";
+              @apply absolute top-0 left-0 block rounded-full bg-gray-100 w-30 md:w-35 h-1;// thay đổi chiều dài của cái dài dài ------
+              transition: 0.3s;
+              transform: translateX(50%) translateY(50%);
+            }
+          }
+          
+          /*thang nao duoc chon thi 3px*/
+          &:hover,
+          &.slick-active {
+            button {
+              &::after {
+                height: 3px;
+                top: -1px;
+                @apply bg-blue-200;
+              }
+            }
+          }
+        }
+      }
+    
+      .slider,
+      .slider-lazy {
+        &:not(.slick-initialized) {
+          .slider-item:not(:first-child) {
+            display: none;
+          }
+        }
+      }
+    
+      .slider-items{ 
+        // width: 368px;
+        @apply xl:w-368 2xl:w-480 2xl:mr-40;
+
+        
+        
+      }
+      
+    }

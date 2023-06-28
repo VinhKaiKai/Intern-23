@@ -19,6 +19,8 @@ const Colors = {
     300: '#F5F8FA',
     400: '#646464',
     500: '#CDD9E3',
+    600: 'rgba(100, 100, 100, 1)',
+    700: '#959D9D',
   },
   blue: {
     100: '#1d4f91',
@@ -28,8 +30,13 @@ const Colors = {
     600: '#043673',
     700: '#4197B4'
   },
+  blackpink: {
+    100: '#1D2020',
+    
+  },
   black: '#000',
-  transparent: 'transparent'
+  transparent: 'transparent',
+  'white-sm': '#fdfdfd',
 }
 module.exports = {
   Colors
