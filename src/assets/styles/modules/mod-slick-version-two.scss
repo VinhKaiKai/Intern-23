@@ -27,6 +27,7 @@
     }
     @media (min-width: 1279px) {
       top: 50%;
+      
     }
     @media (min-width: 1440px) {
       top: 43%;
@@ -34,11 +35,11 @@
   }
 
   .slick-prev {
-    @apply right-20 md:right-43 ;
+    @apply right-20 md:right-43 xl:-left-10;
   }
 
   .slick-next {
-    @apply right-0 md:right-18 ;
+    @apply right-0 md:right-18 xl:left-12;
   }
 
   .slick-dots {
@@ -134,7 +135,7 @@
 
     .div{
       // @apply w-full h-full mmd:h-270 mxl:h-333 mxl:w-full m2xl:h-500 m2xl:w-794;
-      @apply w-full h-232 xl:h-333 2xl:h-500;
+      @apply w-full h-232 md:h-270 xl:h-333 2xl:h-500;
 
     }
 

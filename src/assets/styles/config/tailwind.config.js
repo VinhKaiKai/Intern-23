@@ -154,7 +154,8 @@ module.exports = {
             paddingRight: '0px',
           },
           '@screen 2xl': {
-            maxWidth: '1600px', 
+            maxWidth: '1600px',
+            
           }
         },
         '.container.option-v2': {
