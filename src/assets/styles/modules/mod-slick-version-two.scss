@@ -24,46 +24,21 @@
 
     @media (min-width: 767px) {
       top: -5%;
-      left: 83%;
     }
     @media (min-width: 1279px) {
       top: 50%;
-      left: 10%;
     }
-    @media (min-width: 1919px) {
-      top: 52%;
-      left: 10%;
+    @media (min-width: 1440px) {
+      top: 43%;
     }
   }
 
   .slick-prev {
-    left: 270px;
-    // left: 0;
-    
-    @media (min-width: 767px) {
-      left: 80%;
-      //width: 30px;
-    }
-
-    @media (min-width: 1279px) {
-      left: -10px;
-      width: 30px;
-    }
+    @apply right-20 md:right-43 ;
   }
 
   .slick-next {
-    left: 310px;
-    // left: 40px;
-
-    @media (min-width: 767px) {
-      left: 86%;
-      //width: 30px;
-    }
-
-    @media (min-width: 1279px) {
-      left: 30px;
-      width: 30px;
-    }
+    @apply right-0 md:right-18 ;
   }
 
   .slick-dots {
@@ -76,9 +51,9 @@
     text-align: center;
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     gap: 45px;
-    left:-220px;
+    right: 80px;
 
     @media (min-width: 767px) {
       top: 1%;
@@ -95,11 +70,11 @@
       top:380px;
       gap: 50px;
     }
-    @media (min-width: 1919px) {
+    @media (min-width: 1440px) {
       justify-content: start;
       padding-right: 0;
       left: -25px;
-      top:390px;
+      top:410px;
       gap: 50px;
     }
 
@@ -155,6 +130,14 @@
   }
 
   .box-slick {
-    @apply xl:w-600 2xl:w-794 md:mr-10;
+    @apply w-full xl:w-600 2xl:w-794 md:mr-10;
+
+    .div{
+      // @apply w-full h-full mmd:h-270 mxl:h-333 mxl:w-full m2xl:h-500 m2xl:w-794;
+      @apply w-full h-232 xl:h-333 2xl:h-500;
+
+    }
+
+
   }
 }
