@@ -30,7 +30,7 @@
       
     }
     @media (min-width: 1440px) {
-      top: 43%;
+      top: 41%;
     }
   }
 
@@ -133,9 +133,12 @@
   .box-slick {
     @apply w-full xl:w-600 2xl:w-794 md:mr-10;
 
+    h3{
+      @apply md:text-26 ;
+    }
     .div{
       // @apply w-full h-full mmd:h-270 mxl:h-333 mxl:w-full m2xl:h-500 m2xl:w-794;
-      @apply w-full h-232 md:h-270 xl:h-333 2xl:h-500;
+      @apply w-full h-233 md:h-270 xl:h-333 2xl:h-500;
 
     }
 

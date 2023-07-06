@@ -30,7 +30,7 @@
           left: 10%;
         }
         @media (min-width: 1440px) {
-          top: 117%;
+          top: 115%;
           left: 10%;
         }
       }
@@ -159,5 +159,7 @@
         
         
       }
-      
+      h3{
+        @apply xl:text-28 2xl:text-36
+      }
     }

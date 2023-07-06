@@ -11,27 +11,27 @@
   }
   h1,
   .h1 {
-    @apply text-h1 font-bold md:text-h1-md;
+    @apply 2xl:text-72 xl:text-42 md:text-42 font-bold text-36 ;
   }
 
   h2,
   .h2 {
-    @apply text-h2 font-bold md:text-h2-md;
+    @apply 2xl:text-48 xl:text-32 md:text-32 font-bold text-30;
   }
 
   h3,
   .h3 {
-    @apply text-h3 font-bold 2xl:text-h3-md;
+    @apply 2xl:text-36 xl:text-24 md:text-24 font-semibold text-26;
   }
 
   h4,
   .h4 {
-    @apply text-h4;
+    @apply 2xl:text-25 xl:text-20 md:text-20 font-semibold text-22;
   }
 
   h5,
   .h5 {
-    @apply text-h5 font-bold;
+    @apply 2xl:text-20 xl:text-18 md:text-18 font-medium text-20;
   }
 
   h6,
@@ -48,7 +48,7 @@
   h4,
   h5,
   h6{
-    @apply mb-8;
+    @apply mb-0;
   }
 
   p,
@@ -57,7 +57,7 @@
   ul,
   blockquote,
   figure{
-    margin: 0 0 15px;
+    margin: 0 0 0;
   }
 
   ol,
@@ -73,7 +73,7 @@
     @apply list-disc;
   }
   p {
-    @apply mb-15;
+    @apply mb-0;
   }
 }
 
