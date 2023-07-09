@@ -3,7 +3,6 @@
 // stylelint-disable
 /* Icons */
 /* Arrows */
-
   .slick-prev, //  chung 2 cái <>
   .slick-next {
     position: absolute;
@@ -129,7 +128,6 @@
       }
     }
   }
-
   .box-slick {
     @apply w-full xl:w-600 2xl:w-794 md:mr-10;
 
@@ -137,11 +135,15 @@
       @apply md:text-26 ;
     }
     .div{
-      // @apply w-full h-full mmd:h-270 mxl:h-333 mxl:w-full m2xl:h-500 m2xl:w-794;
       @apply w-full h-233 md:h-270 xl:h-333 2xl:h-500;
-
     }
-
-
+    a{
+      &:hover {
+        color: #4197b4;
+        font-size: 15px;
+        transition: .5s;
+      }
+    }
   }
+
 }

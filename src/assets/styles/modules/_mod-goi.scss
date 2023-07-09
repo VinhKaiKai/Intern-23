@@ -1,6 +1,15 @@
 .goi{
     .container{
         .my-goi{
+            .title{
+                a{
+                    &:hover {
+                      color: #4197b4;
+                      font-size: 15px;
+                      transition: .5s;
+                    }
+                  }
+            }
             .content-box{
                 h5{
                     font-weight: bold;

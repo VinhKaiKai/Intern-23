@@ -151,15 +151,17 @@
           }
         }
       }
-    
       .slider-items{ 
-        // width: 368px;
         @apply xl:w-368 2xl:w-480 2xl:mr-40;
-
-        
-        
       }
       h3{
         @apply xl:text-28 2xl:text-36
+      }
+      a{
+        &:hover {
+          color: #4197b4;
+          font-size: 15px;
+          transition: .5s;
+        }
       }
     }

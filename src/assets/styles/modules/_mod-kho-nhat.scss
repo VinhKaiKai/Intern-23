@@ -1,4 +1,13 @@
 .module-kho-nhat{
+    .wrap_word{
+        a{
+            &:hover {
+              color: #4197b4;
+              font-size: 15px;
+              transition: .5s;
+            }
+        }
+    }
     .wrap-images{
         translate: -75px;
         @media (min-width :767px) {

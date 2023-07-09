@@ -1,0 +1,19 @@
+.Input-information{
+    .container{
+        .my-input-and-word{
+            .wrap-blue{
+                .div{
+                    .icon{
+                        a{
+                            img{
+                                &:hover{
+                                    filter: blur(5px);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

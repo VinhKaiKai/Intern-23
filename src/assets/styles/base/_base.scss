@@ -78,8 +78,7 @@
 }
 
 a {
-  @apply text-primary-100 underline hover:no-underline hover:text-primary-200;
-  
+  @apply text-primary-100 underline hover:no-underline hover:text-blue-100;
   &:-webkit-any-link:focus-visible {
     outline-offset: 3px;
   }

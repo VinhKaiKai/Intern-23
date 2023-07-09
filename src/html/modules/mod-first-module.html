@@ -1,21 +1,19 @@
 <section class="first">
     <div class="container px-0 max-w-full">
         <div class="my-first pb-36 w-full h-auto md:pb-8 xl:pb-0">
-            <div class="div-anh xl:relative w-full">
-                <picture class="w-full">
-                    <source media="(min-width:1920px)" srcset="{{imagesBase64}}" data-srcset="../../assets/images/cuoi-4.png">
-                    <source media="(min-width:1280px)" srcset="{{imagesBase64}}" data-srcset="../../assets/images/cuoi-3.png">
-                    <source media="(min-width:768px)" srcset="{{imagesBase64}}" data-srcset="../../assets/images/cuoi-2.png">
-                    <img class="lazy w-full" data-src="../../assets/images/cuoi-1.png" alt="không thay 2" src="{{imagesBase64}}">
-                </picture>
+            <div class="div-anh xl:relative w-full">    
+                <img class="w-full object-cover md:hidden" src="../../assets/images/first-jpg-four.jpg" alt="adjust-mobile">
+                <img class="w-full object-cover hidden md:block xl:hidden" src="../../assets/images/first-jpg-three.jpg" alt="adjust-tablet">
+                <img class="w-full object-cover hidden xl:block 2xl:hidden" src="../../assets/images/first-jpg-two.jpg" alt="adjust-desktop-1">
+                <img class="w-full object-cover hidden 2xl:block" src="../../assets/images/first-jpg-one.jpg" alt="adjust-desktop-2">
                 <a href="#" class="font-bold no-underline play-video hidden 2xl:flex 2xl:absolute 2xl:bottom-0 2xl:right-0 2xl:pb-10 2xl:pr-3 2xl:text-black">
-                    <img src="../../assets/images/play.png" alt="hoi-video" class="h-10 mt-3 mr-6">
+                    <img src="../../assets/images/play-jpg.jpg" alt="hoi-video" class="h-10 mt-3 mr-6">
                     Play video
                 </a>
             </div>
             <div class="wrap-content pl-24 pt-28 md:-mt-4 md:px-24 xl:absolute xl:top-103 xl:left-63 2xl:left-110 2xl:top-345">
                 <div class="xl:mb-3 2xl:mb-4 md:mb-5">
-                    <h1>
+                    <h1 aria-label="search infomation">
                         Adjust to amazing
                     </h1>
                 </div>
@@ -24,7 +22,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit.
                     </h5>
                 </div>
-                <button name="button" type="button" class=" py-5 bg-blue-900 text-white rounded-3 px-16 md:leading-140 md:py-8 md:text-14 md:font-bold text-14 2xl:px-17"> Primary Button </button>
+                <button name="button" type="button" class="py-5 bg-blue-900 text-white rounded-3 px-16 md:leading-140 md:py-8 md:text-14 md:font-bold text-14 2xl:px-17">Primary Button </button>
             </div>
         </div>
     </div>
