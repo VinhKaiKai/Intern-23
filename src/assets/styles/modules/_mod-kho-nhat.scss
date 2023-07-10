@@ -8,6 +8,15 @@
             }
         }
     }
+    .wrap_word.reveal{
+        opacity: 0;
+        transform: translateX(-300px);
+        transition: all 3s ease;
+    }
+    .wrap_word.reveal.active{
+        opacity: 1;
+        transform: translateX(0);
+    }
     .wrap-images{
         translate: -75px;
         @media (min-width :767px) {
@@ -16,5 +25,14 @@
         @media (min-width :1910px) {
             translate: 100px;
         }
+    }
+    .wrap-images.reveal{
+        opacity: 0;
+        transform: translateX(300px);
+        transition: all 3s ease;
+    }
+    .wrap-images.reveal.active{
+        opacity: 1;
+        transform: translateX(0);
     }
 }

@@ -2,6 +2,27 @@
     .container{
         .my-goi{
             .title{
+                .head.reveal{
+                    position: relative;
+                    opacity: 0;
+                    transform: translateX(-300px);
+                    transition: all 1.5s ease;
+                }
+                .head.reveal.active{
+                    opacity: 1;
+                    transform: translateX(0px);
+                }
+                .add.reveal{
+                    position: relative;
+                    opacity: 0;
+                    transform: translateX(300px);
+                    transition: all 1.5s ease;
+                }
+                .add.reveal.active{
+                    opacity: 1;
+                    transform: translateX(0px);
+                }
+                
                 a{
                     &:hover {
                       color: #4197b4;
@@ -11,6 +32,37 @@
                   }
             }
             .content-box{
+                .content-1.reveal{
+                    position: relative;
+                    opacity: 0;
+                    transform: translateX(-200px);
+                    transition: all 2s ease;
+                }
+                .content-1.reveal.active{
+                    opacity: 1;
+                    transform: translateX(0px);
+                }
+                .content-2.reveal{
+                    position: relative;
+                    opacity: 0;
+                    transform: translateY(100px);
+                    transition: all 2s ease;
+                }
+                .content-2.reveal.active{
+                    opacity: 1;
+                    transform: translateX(0px);
+                }
+                .content-3.reveal{
+                    position: relative;
+                    opacity: 0;
+                    transform: translateX(200px);
+                    transition: all 2s ease;
+                }
+                .content-3.reveal.active{
+                    opacity: 1;
+                    transform: translateX(0px);
+                }
+
                 h5{
                     font-weight: bold;
                 }

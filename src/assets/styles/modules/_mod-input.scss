@@ -15,4 +15,11 @@
             }
          }
     }
+    .container.reveal{
+        opacity: 0;
+        transition: all 2s ease;
+    }
+    .container.reveal.active{
+        opacity: 1;
+    }
 }

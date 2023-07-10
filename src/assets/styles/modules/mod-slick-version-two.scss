@@ -145,5 +145,13 @@
       }
     }
   }
-
+  .above.reveal{
+      opacity: 0;
+      transform: translateX(-300px);
+      transition: all 1.5s ease;
+    }
+    .above.reveal.active{
+      opacity: 1;
+      transform: translateX(0px);
+    }
 }

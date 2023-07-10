@@ -1,4 +1,13 @@
 .bed{
+  .reveal{
+    opacity: 0;
+    transform: translateY(300px);
+    transition: all 3s ease;
+  }
+  .active{
+    opacity: 1;
+    transform: translateY(0px);
+  }
   h5{
     font-weight: bold;
   }

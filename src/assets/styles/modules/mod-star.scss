@@ -164,4 +164,22 @@
           transition: .5s;
         }
       }
+      .head.reveal{
+        opacity: 0;
+        transform: translateX(-200px);
+        transition: all 2s ease;
+      }
+      .head.reveal.active{
+        opacity: 1;
+        transform: translateY(0px);
+      }
+      .one.reveal{
+        opacity: 0;
+        transform: translateX(200px);
+        transition: all 2s ease;
+      }
+      .one.reveal.active{
+        opacity: 1;
+        transform: translateY(0px);
+      }
     }
