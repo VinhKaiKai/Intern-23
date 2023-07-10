@@ -5,15 +5,14 @@
                 .div{
                     .icon{
                         a{
-                            img{
-                                &:hover{
-                                    filter: blur(5px);
-                                }
+                            &:hover{
+                                filter: blur(1px);
+                                scale: 1.3;
                             }
                         }
                     }
                 }
             }
-        }
+         }
     }
 }
