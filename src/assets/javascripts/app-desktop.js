@@ -24,9 +24,9 @@ import 'modules/ConvertSvg'
 
 
 // //ADA support ADA
-import 'modules/Popup'
-import 'modules/DatePickerDialog'
-import 'modules/SelectC8'
+// import 'modules/Popup'
+// import 'modules/DatePickerDialog'
+// import 'modules/SelectC8'
 
 // //ADA
 import 'modules/ModAccordion'

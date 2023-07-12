@@ -67,6 +67,38 @@
                     font-weight: bold;
                 }
             }
+            .content-box{
+                .content-1{
+                    .wrap-photo{
+                        img {
+                            &:hover{
+                                scale: 1.1;
+                                transition: 0.5s;
+                            }
+                        }
+                    }
+                }
+                .content-2{
+                    .wrap-photo{
+                        img {
+                            &:hover{
+                                transition: 0.5s;
+                                scale: 1.1;
+                            }
+                        }
+                    }
+                }
+                .content-3{
+                    .wrap-photo{
+                        img {
+                            &:hover{
+                                transition: 0.5s;
+                                scale: 1.1;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
    

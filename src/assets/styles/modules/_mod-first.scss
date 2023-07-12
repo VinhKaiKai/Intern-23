@@ -1,4 +1,22 @@
 .first{
+    .my-first{
+        .wrap-content{
+            .bhieu{
+                h1{
+                    position: relative;
+                    color: #0e3742;
+                    width: 100%;
+                    span{
+                        animation: animate 5s linear infinite;
+                        @apply load-text;
+                    }
+                    // span:nth-child(even){
+                    //     animation-delay: 0.2s;
+                    // }
+                }
+            }
+        }
+    }
     button{
         &:hover{
             background-color: #4197b4;

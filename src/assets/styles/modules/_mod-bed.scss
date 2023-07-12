@@ -1,12 +1,69 @@
 .bed{
-  .reveal{
-    opacity: 0;
-    transform: translateY(300px);
-    transition: all 3s ease;
-  }
-  .active{
-    opacity: 1;
-    transform: translateY(0px);
+  .my-bed{
+    .body-bed{
+      .two-above.reveal{
+        opacity: 0;
+        transform: translateY(200px);
+        transition: all 2s ease;
+      }
+      .two-above.reveal.active{
+        opacity: 1;
+        transform: translateY(0px);
+      }
+      .two-above{
+        .content-1{
+          .anh{
+            img {
+              &:hover{
+                scale: 1.1;
+                transition: 0.5s;
+              }
+            }
+          }
+        }
+        .content-2{
+          .anh{
+            img {
+              &:hover{
+                scale: 1.1;
+                transition: 0.5s;
+              }
+            }
+          }
+        }
+      }
+      .two-bottom{
+        .content-3{
+          .anh{
+            img {
+              &:hover{
+                transition: 0.5s;
+                scale: 1.1;
+              }
+            }
+          }
+        }
+        .content-4{
+          .anh{
+            img {
+              &:hover{
+                transition: 0.5s;
+                scale: 1.1;
+              }
+            }
+          }
+        }
+      }
+      .two-bottom.reveal{
+        opacity: 0;
+        transform: translateY(200px);
+        transition: all 2s ease;
+      }
+      .two-bottom.reveal.active{
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
   }
   h5{
     font-weight: bold;
